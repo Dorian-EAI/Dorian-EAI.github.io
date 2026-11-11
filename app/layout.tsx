@@ -3,13 +3,18 @@ import "./globals.css";
 import { profile } from "@/content/profile";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dorian.is-a.dev"),
   title: `${profile.name} — ${profile.role}`,
   description: `${profile.name} 的作品集：产品定义、界面设计与前端实现。用 Next.js、原生 CSS 动效和 WebGL 做有质感的数字产品。`,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: `${profile.name} — ${profile.role}`,
     description: profile.tagline,
     type: "website",
     locale: "zh_CN",
+    url: "https://dorian.is-a.dev",
   },
   icons: {
     icon: "/favicon.svg",

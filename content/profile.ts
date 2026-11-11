@@ -30,7 +30,7 @@ export const profile = {
   availability: "开放产品合作",
   now: "正在构建 general instinct",
   socials: [
-    { label: "GitHub", href: "https://github.com/" },
+    { label: "GitHub", href: "https://github.com/Dorian-EAI" },
     { label: "邮件", href: "mailto:hello@example.com" },
   ],
 };
