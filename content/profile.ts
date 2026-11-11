@@ -26,12 +26,12 @@ export const profile = {
   intro:
     "我做产品定义、界面设计和前端实现，也自己处理定价、渠道和第一批用户。比起把一个东西做大，我更在意它能不能被用很久。",
   location: "福建 · 中国",
-  email: "hello@example.com",
+  email: "dorianlin@yeah.net",
   availability: "开放产品合作",
   now: "正在构建 general instinct",
   socials: [
     { label: "GitHub", href: "https://github.com/Dorian-EAI" },
-    { label: "邮件", href: "mailto:hello@example.com" },
+    { label: "邮件", href: "mailto:dorianlin@yeah.net" },
   ],
 };
 
